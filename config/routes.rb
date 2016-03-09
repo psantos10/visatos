@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'home/index'
   
   resources :sessions, only: [:new, :create, :destroy]
-  get "/login" => "sessions#new", as: "login"
+  get "/login" => "home#index", as: "login"
   delete "/logout" => "sessions#destroy", as: "logout"
   
   resources :teachers do

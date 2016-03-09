@@ -6220,3 +6220,550 @@ Processing by UsersController#index as HTML
   Rendered users/index.html.erb within layouts/application (1.3ms)
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
 Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:00:44 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+Redirected to https://visatos-luizgrj.c9users.io/login
+Filter chain halted as :ensure_login rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:00:44 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 1706ms (Views: 1704.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/curriculums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:46 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jobs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/schools.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/teachers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/curriculums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jobs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/schools.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/teachers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:48 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.27.51.185 at 2016-03-09 01:00:48 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:00:57 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C7zPhn7mvVViNa97od2ykKB6r0OVgmcESZiaIThqZwhx52QOBeR/YzRYoImwR6M4C0+/X/3sXavLr3mioJwNqA==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 181ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:00:57 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:06:15 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ozcs0uJdNu4tMf5RUH+UX2AWkwUvzwPcEL4bQUXyj2bZbIdamV/02Htc8aNB5YX3yyODGUehOXOSifjC3QTlxg=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:06:15 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:06:17 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SJeeLuwW6yX4rwucAWM2qiYqmzTgnp4k0PHXZguDJGcZ2Va1IDSsAKOVZGJpGx0E6jiRb6w2T/mmrV3Www2slg==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 78ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:06:17 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for 189.27.51.185 at 2016-03-09 01:06:23 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/6" for 189.27.51.185 at 2016-03-09 01:06:47 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 189.27.51.185 at 2016-03-09 01:06:49 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:07:20 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2YF6wseMabUD6SdO5XslNPUAeAVgrsjn+R/gegB4NlWIz7JZC64ukFjTSLCNAw6aORJyXiwGGTqPQ2rKyPa+pA=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:07:20 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:13:51 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:13:58 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cz1H2HF5ST4MDDDhjSS6ubXkExDRsRzP6rrwSr+DnVBDh5IWCRD9V5+FGpbXMSY83AeNvSXb9nfl4J42QaGDpw==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 88ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:13:59 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:15:44 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/curriculums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jobs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/schools.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/teachers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/curriculums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jobs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/schools.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/teachers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 189.27.51.185 at 2016-03-09 01:15:45 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:15:48 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QthD4xEPGHrgMewXP1l/NWh4uOLwjA/jz8jrkHKmC95yYpYtaWasE3O4xmBlTOOwAZsmTwTm5VvAkoXsjIQVKQ=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:15:49 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:15:55 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wvRt/TsZA67GZI4Q0qttdNDjLIbddmigugTx5yZ7xAoRn/7gUOHp6efsZhHSCGq0bFW57x1pgO1/Jab+phOVFg==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1[0m
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 86ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:15:56 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:15:58 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BfyjfIA0gEh6m4jcjsEhLmjYRGfDi33LFFwDGVNMzBvWlzBh68xqD1sTYN2OYibu1G7RDgOUlYbRfVQA0ySdBw=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:15:59 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:16:02 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDVQQdQyYpRsoEHA3jFE33v5ufdPFOALRyglHTgQ86Qmr9gWVQeiTJoUBY3M0CCxBPjWsFFvt1YIj8GpZaDGqQ==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (118.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1[0m
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 203ms (ActiveRecord: 118.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:16:02 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:16:03 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"c/13NHuXQK5Ts3ZVuPae7/5p6iOAwyIpTyjoD4jQyZ19Z/9j+qKAdqUHMhiqF/qBgWiFZJ64dXQAjwy71WD8kA=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:16:04 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:18:48 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"suO3+l46GUtTgFA8IRUZGhuX+qCzC2sqFj8jRipKtr95dQZYuRsjSMStlGbFtJ5inKM1juyAlaBIzkf/qEbtQA==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1[0m
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 118ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:18:49 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:18:51 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KKEo71AzvvoCUx/Fvflc6eq8g4tRSRkGPNkMM3+TSX/jN5lNtxKE+ZV+259ZWNuRbYhMpQ7C54xiKGiK/Z8SgA=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:18:51 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:18:54 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jG3C5CDI+wc1c1nzu7JyIYuwCXk4pgNHo3Yy8miA1tYfNpQDZ7b5gGIuU4JJz/bYQxWeWEePYFENCs4E6pWbLg==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1[0m
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 81ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:18:55 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:18:57 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"f61ridUjq+dCwORdsR9IxO5pSS5mVaHGfL5EBgR0FLzs9j1ukl2pYBWd7ixDYsw9JszeDxl8wtDSwrjwhmFZRA=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:18:57 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:18:59 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mR2Q+kQWAn6kn+0WlCEY6aeUQo/SgfiydNfJ+wtGG8o9J0xKKVANV9UsPUtxOcLWtQ/cJxkDSQ9bBY7LPyiiPQ==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1[0m
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 75ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:18:59 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:19:01 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"T0rTNv/CQ/2/QICtrqVTf8Eq7boDibSauG0+2vC6yIPrcA+GkoRM1M7zUPBLvYlA07FzEsgLBSeXv3nqxNRxdA=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:19:02 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 189.27.51.185 at 2016-03-09 01:19:08 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:19:15 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hwqNY/tIQKHjOixTTxRrDJc20dSyQoZd3/S1+wqib18a1yG+VF/NyS/2svX22J8H4hKAQLbIIozXNULp38M6sw==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 223ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:19:16 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:19:17 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GDl4UCH3LnUfmrD7amaXsd/9q19/4JiFkBFL3S7+cMmF5NSNjuCjHdNWLl3TqmO6qtn6y3tqPFSY0LzP+58lJQ=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:19:17 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 189.27.51.185 at 2016-03-09 01:20:26 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E+MThlLfuTIawDuBvC0PZ3xBjF24KdaJ5AkhxFJPe1lHZ3qbQp9HA2gTRXbA7L02r6U7Dhb4gCPaF46pJYDT3g==", "user"=>{"username"=>"teste", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`username` = 'teste' LIMIT 1
+Redirected to https://visatos-luizgrj.c9users.io/
+Completed 302 Found in 79ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 189.27.51.185 at 2016-03-09 01:20:26 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 189.27.51.185 at 2016-03-09 01:20:29 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RC/3S3bBJZVG0cooAWuhtrCdK/V59dw8EsX28YFrAsAQq55WZoHbpDQCtN99qhPnY3mcptckipYs21mc9qSqRw=="}
+Redirected to https://visatos-luizgrj.c9users.io/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 189.27.51.185 at 2016-03-09 01:20:29 +0000
+Cannot render console from 189.27.51.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
