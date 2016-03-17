@@ -1,4 +1,23 @@
 <h1>Home#index</h1>
+<p id="notice"><%= notice %></p>
+<% unless logged_in? %>
+<%= form_for(:user, url: sessions_path) do |f| %>
+    <div class="field">
+        <%= f.label :username %> <br/>
+        <%= f.text_field :username %>
+    </div>
+<p/>
+    <div class="field">
+        <%= f.label :password %> <br/>
+        <%= f.password_field :password %>
+    </div>
+<p/>
+    <div class="actions">
+        <%= f.submit "Login" %>
+    </div>
+    
+<% end %>
+<% end %>
 
 <%= link_to 'Cadastrar vaga',schools_url %> |
 <%= link_to 'Cadastrar Currículo',teachers_path %>

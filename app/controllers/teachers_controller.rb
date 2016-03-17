@@ -4,7 +4,11 @@ class TeachersController < ApplicationController
   # GET /teachers
   # GET /teachers.json
   def index
-    @teachers = Teacher.all
+    if logged_in? #testar se usuário logou
+        @teachers=Teacher.where(user_id: session[:user_id]) #lista escolas do usuario
+    else
+      redirect_to login_path, notice: 'Você precisa estar logado para completar seu perfil'
+    end
   end
 
   # GET /teachers/1
@@ -69,6 +73,6 @@ class TeachersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def teacher_params
-      params.require(:teacher).permit(:name, :cpf)
+      params.require(:teacher).permit(:name, :cpf, :user_id)
     end
 end

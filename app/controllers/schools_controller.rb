@@ -4,7 +4,11 @@ class SchoolsController < ApplicationController
   # GET /schools
   # GET /schools.json
   def index
-    @schools = School.all
+    if logged_in? #testar se usuário logou
+        @schools=School.where(user_id: session[:user_id]) #lista escolas do usuario
+    else
+      redirect_to login_path, notice: 'Você precisa estar logado para cadastrar nova escola'
+    end
   end
 
   # GET /schools/1
@@ -69,6 +73,6 @@ class SchoolsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def school_params
-      params.require(:school).permit(:name, :cnpj)
+      params.require(:school).permit(:name, :cnpj, :user_id)
     end
 end

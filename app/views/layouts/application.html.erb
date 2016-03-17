@@ -9,22 +9,8 @@
 <body>
   
 <% unless logged_in? %>
-<%= form_for(:user, url: sessions_path) do |f| %>
-    <div class="field">
-        <%= f.label :username %> <br/>
-        <%= f.text_field :username %>
-    </div>
-<p/>
-    <div class="field">
-        <%= f.label :password %> <br/>
-        <%= f.password_field :password %>
-    </div>
-<p/>
-    <div class="actions">
-        <%= f.submit "Login" %>
-    </div>
-    
-<% end %>
+    <%= link_to "Log in", login_path %> | 
+    <%= link_to "Cadastrar",new_user_path %>
 <% end %>
 
 <% if logged_in? %>

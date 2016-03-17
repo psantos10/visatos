@@ -8,15 +8,10 @@ Rails.application.routes.draw do
   get "/login" => "home#index", as: "login"
   delete "/logout" => "sessions#destroy", as: "logout"
   
-  resources :teachers do
-        resources :curriculums
-    end
-    
-  
-  resources :schools do
-        resources :jobs
-    end
-  
+  resources :teachers
+  resources :curriculums
+  resources :schools
+  resources :jobs
   resources :users
   
   
