@@ -4,7 +4,11 @@ class JobsController < ApplicationController
   # GET /jobs
   # GET /jobs.json
   def index
-    @jobs = Job.all
+    if logged_in? #testar se usuário logou
+        @jobs=Job.where(school_id: session[:school_id]) #lista vagas
+    else
+      redirect_to login_path, notice: 'Você precisa estar logado'
+    end
   end
 
   # GET /jobs/1

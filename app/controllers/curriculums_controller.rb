@@ -4,7 +4,11 @@ class CurriculumsController < ApplicationController
   # GET /curriculums
   # GET /curriculums.json
   def index
-    @curriculums = Curriculum.all
+    if logged_in? #testar se usuário logou
+      @curriculums = Curriculum.where(user_id: session[:user_id]) #lista curriculums
+    else
+      redirect_to login_path, notice: 'Você precisa estar logado'
+    end
   end
 
   # GET /curriculums/1
